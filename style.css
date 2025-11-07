@@ -13,7 +13,7 @@
   /* Header */
   .header {
     width: 100%;
-    background: #ffffff;
+    background: #000000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     padding: 10px 50px;
   }
@@ -42,7 +42,7 @@
   
   .navigation a {
     text-decoration: none;
-    color: #333;
+    color: #ebe2e2;
     font-weight: 500;
     transition: color 0.3s ease;
   }
@@ -220,7 +220,116 @@
           grid-template-columns: repeat(2, 1fr);
         }
       }
-    /* element 2 end */    
+    /* element 2 end */  
+    
+    /* element 3 */
+    .np-boxes {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        display: flex;     
+        align-content: stretch;
+        flex-wrap: nowrap;
+      }
+      
+      .np-box {
+        background: transparent;
+        border: 1px solid #333;
+        padding: 20px;
+        flex: 1 1 280px;
+        max-width: 320px;
+        text-align: center;
+        transition: 0.3s ease;
+      }
+      
+      .np-box:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+      
+      .np-box h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      .np-box h3 span {
+        font-weight: bold;
+      }
+      
+      .np-box p {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    /* element 3 end */
+
+/* footer css */
+.footer {
+    background-color: #a0a0a0; /* Light gray background as shown */
+    color: #fff;
+    padding: 40px 80px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .footer-column {
+    flex: 1 1 200px;
+    min-width: 180px;
+  }
+  
+  .footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.9;
+    transition: opacity 0.3s;
+  }
+  
+  .footer-column ul li a:hover {
+    opacity: 1;
+  }
+  
+  .company-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .company-info p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #f1f1f1;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 15px;
+    font-size: 13px;
+    color: #e0e0e0;
+  }
+  
+/* footer css end */
 
 
   
