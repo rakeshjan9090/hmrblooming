@@ -75,94 +75,153 @@
     background: #007bff;
     color: white;
   }
-  
-  /* Hero Section */
-  .hero {
-    background: url('https://via.placeholder.com/1600x700') center/cover no-repeat;
-    color: white;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .hero-content {
-    background: rgba(0, 0, 0, 0.6);
+  /* element 1 */
+  .group {
     padding: 40px;
-    border-radius: 10px;
+    background-color: #f9f9f9;
   }
   
-  .btn {
-    display: inline-block;
-    margin-top: 20px;
-    background: #ff6600;
-    color: white;
-    padding: 10px 25px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background 0.3s;
-  }
-  
-  .btn:hover {
-    background: #ff8533;
-  }
-  
-  /* Services */
-  .services {
-    padding: 80px 50px;
-    text-align: center;
-    background: #f8f8f8;
-  }
-  
-  .service-container {
+  .row {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 40px;
   }
   
-  .service-box {
-    background: #fff;
-    padding: 25px;
-    width: 300px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    border-radius: 10px;
-  }
-  
-  /* About */
-  .about {
-    padding: 80px 50px;
+  .group-inner {
+    max-width: 600px;
     text-align: center;
   }
   
-  /* Contact */
-  .contact {
-    padding: 80px 50px;
-    background: #f8f8f8;
-    text-align: center;
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
   }
   
-  .contact form {
-    max-width: 500px;
-    margin: 0 auto;
+  p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    justify-content: center;
+    gap: 10px;
   }
   
-  .contact input,
-  .contact textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+ 
   
-  footer {
-    background: #000;
+  .btn.primary {
+    background-color: #0073e6;
     color: white;
-    text-align: center;
-    padding: 20px;
   }
+  
+  .btn.secondary {
+    background-color: #ddd;
+    color: #333;
+  }
+    /* element 1 end */
+
+    /* element 2 */
+    .get-found {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 100px;
+        min-height: 100vh;
+        gap: 60px;
+      }
+      
+      .brands {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        max-width: 500px;
+        background: #222;
+      }
+      
+      .brands img {
+        width: 120px;
+        opacity: 0.8;
+        filter: brightness(0) invert(1);
+      }
+      
+      .form-box {
+        background: #f4f4f4;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        width: 420px;
+      }
+      
+      .form-box h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #222;
+      }
+      
+      .checkbox-group {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+        margin-bottom: 25px;
+      }
+      
+      .checkbox-group div {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 10px 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        transition: 0.3s ease;
+      }
+      
+      .checkbox-group div:hover {
+        border-color: #ff5b2e;
+        box-shadow: 0 0 6px rgba(255, 91, 46, 0.4);
+      }
+      
+      .checkbox-group input[type="checkbox"] {
+        accent-color: #ff5b2e;
+      }
+      
+      button {
+        background: #ff5b2e;
+        border: none;
+        padding: 12px 20px;
+        width: 100%;
+        color: white;
+        font-weight: 600;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      
+      button:hover {
+        background: #e04d23;
+      }
+      
+      @media (max-width: 900px) {
+        .get-found {
+          flex-direction: column;
+          text-align: center;
+        }
+      
+        .brands {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      
+        .form-box {
+          width: 90%;
+        }
+      
+        .checkbox-group {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    /* element 2 end */    
+
+
+  
   
