@@ -34,3 +34,93 @@
     font-weight: 500;
   }
   
+  /* Hero Section */
+  .hero {
+    background: url('https://via.placeholder.com/1600x700') center/cover no-repeat;
+    color: white;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #ff6600;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #ff8533;
+  }
+  
+  /* Services */
+  .services {
+    padding: 80px 50px;
+    text-align: center;
+    background: #f8f8f8;
+  }
+  
+  .service-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .service-box {
+    background: #fff;
+    padding: 25px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  /* About */
+  .about {
+    padding: 80px 50px;
+    text-align: center;
+  }
+  
+  /* Contact */
+  .contact {
+    padding: 80px 50px;
+    background: #f8f8f8;
+    text-align: center;
+  }
+  
+  .contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
