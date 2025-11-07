@@ -11,27 +11,69 @@
   }
   
   /* Header */
-  .navbar {
-    background: #000;
-    color: #fff;
+  .header {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 10px 50px;
+  }
+  
+  .header-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .header-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    position: sticky;
-    top: 0;
   }
   
-  .navbar ul {
+  .site-logo img {
+    height: 50px;
+  }
+  
+  .navigation ul {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 20px;
   }
   
-  .navbar a {
-    color: #fff;
+  .navigation a {
     text-decoration: none;
+    color: #333;
     font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navigation a:hover {
+    color: #007bff;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    border: 1px solid #007bff;
+    background: transparent;
+    color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .btn.primary {
+    background: #007bff;
+    color: white;
   }
   
   /* Hero Section */
