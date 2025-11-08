@@ -239,7 +239,7 @@
         flex: 1 1 280px;
         max-width: 320px;
         text-align: center;
-        transition: 0.3s ease;
+        transition: 0.2s ease;
       }
       
       .np-box:hover {
@@ -247,7 +247,7 @@
       }
       
       .np-box h3 {
-        font-size: 18px;
+        font-size: 10px;
         margin-bottom: 10px;
       }
       
@@ -256,7 +256,7 @@
       }
       
       .np-box p {
-        font-size: 14px;
+        font-size: 10px;
         line-height: 1.5;
       }
     /* element 3 end */
