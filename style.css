@@ -226,7 +226,7 @@
     .np-boxes {
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
         display: flex;     
         align-content: stretch;
         flex-wrap: nowrap;
@@ -237,7 +237,7 @@
         border: 1px solid #333;
         padding: 20px;
         flex: 1 1 280px;
-        max-width: 320px;
+        max-width: 3cm;
         text-align: center;
         transition: 0.2s ease;
       }
@@ -247,7 +247,7 @@
       }
       
       .np-box h3 {
-        font-size: 10px;
+        font-size: 0.5px;
         margin-bottom: 10px;
       }
       
@@ -256,8 +256,8 @@
       }
       
       .np-box p {
-        font-size: 10px;
-        line-height: 1.5;
+        font-size: 0.5px;
+        line-height: 0.5;
       }
     /* element 3 end */
 
